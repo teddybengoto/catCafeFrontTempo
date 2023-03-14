@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Abel";
+    src: url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+}
+
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Abel";
+    background-color: black;
+
+}
+
+
+header img {
+    height: 82.84px;
+    width: 78.16px;
+    transform: rotate(-30deg);
+
+}
+
+#navLine {
+    width: 35px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
+
+#array1 {
+    background-image: url("../assiste/img/imgCat1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 801px;
+    color: white;
+}
+
+#titleArray {
+    margin-top: 20%;
+}
+
+#titleArray p {
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+#btArray {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+button {
+    border-color: white !important;
+    color: white !important;
+}
+
+#aboutUsArrayLeft {
+    width: 48%;
+
+}
+
+#aboutUsArrayRight {
+    width: 48%;
+
+}
+
+#aboutUsArray {
+    background-color: #D4CDC1;
+}
+
+.custumBtn {
+
+    width: 562px;
+    height: 154px;
+    border-color: black !important;
+    background-color: #D3AC71;
+    margin-top: 0;
+    border-radius: 20px;
+    color: black !important;
+    font-family: "Amatica SC";
+    font-style: Bold;
+    font-size: 70px;
+    line-height: 102px;
+    line-height: 100%;
+
+}
+
+#aboutUsCat {
+    height: 179px;
+    width: 305px;
+    object-fit: cover;
+    margin-bottom: -41.9px;
+    margin-right: 100px;
+    z-index: 1;
+}
+
+#aboutImgCatOnLaptop {
+    height: 346px;
+    width: 467px;
+    left: -1462px;
+    top: 1035px;
+    border-radius: 20px;
+
+
+}
+
+#DontWaitText {
+
+    font-family: "Amatica SC";
+    font-style: Bold;
+    font-size: 70px;
+    line-height: 102px;
+    line-height: 100%;
+    
+}
+
+#aboutUsCat_ {
+    height: 454px;
+    width: 363px;
+    border-radius: 20px;
+    
+}
