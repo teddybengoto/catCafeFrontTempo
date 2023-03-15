@@ -1,0 +1,78 @@
+body {
+	background-color:rgba(239, 212, 160, 1);
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#gauche{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: justify;
+  width: 50%;
+}
+
+#droite{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.texte{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.titre{
+  font-family: "Amatic SC";
+  font-size: 50px;
+  text-align: center;
+}
+
+
+#chatNoir {
+    height: 120px;
+    width: 200px;
+    object-fit: scale-down;
+    margin-bottom: -41.9px;
+    margin-left: 180px;
+    z-index: 1;
+}
+
+.custumBtn {
+    border-color: black !important;
+    border-radius: 10px;
+    background-color: rgba(133, 126, 115, 1);
+    width:350px;
+    height: 100px;
+    color: white !important;
+    vertical-align : middle;
+    font-size: 18px;
+}
+
+
+.frame {
+       width: 450px;
+       height: 350px;
+       border: 3px solid black;
+       border-radius: 20px;
+       background: rgba(211, 172, 113, 1);
+       padding: 15px 25px;
+     }
+     img {
+       object-fit: cover;
+       width: 100%;
+       height: 100%;
+       border: 3px hidden;
+       border-radius: 20px;
+     }
