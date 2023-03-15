@@ -23,6 +23,11 @@ header img {
     transform: rotate(-30deg);
 }
 
+button {
+    border-color: white !important;
+    color: white !important;
+}
+
 #navLine {
     width: 35px;
     height: 1px;
