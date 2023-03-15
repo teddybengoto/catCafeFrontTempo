@@ -1,0 +1,167 @@
+<style media="screen">
+  #barre{
+    display: none;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    color:white;
+    height:35px;
+    font-size:35px;
+    margin-left:0;
+    margin-right:0;
+  }
+
+  #tout{
+    background-color:black;
+  }
+
+  #barreNosEspaces{
+    display: flex;
+    background-color:black;
+    height:100px;
+  }
+  #barreNosEspacesGauche{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:45%;
+  }
+
+  #barreNosEspacesTexte{
+      color:white;
+      font-size:40px;
+  }
+
+  #barreNosEspacesDroite{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width:45%;
+  }
+
+  #barreNosEspacesBtn{
+      color:white;
+      background-color:black;
+      border-bottom-style: solid;
+      border-top-style: solid;
+      border-left-style: solid;
+      border-right-style: solid;
+      border-radius: 10px;
+      border-color:white;
+      font-size:20px;
+      height:60px;
+      width:300px;
+  }
+
+  #futureCarousel{
+    display: flex;
+  }
+
+  #divImg1{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  #divImg2{
+    width: 50%;
+  }
+
+  #img1{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #img2{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .divNomEspaceFlex{
+    position:relative;
+    width: 99.5%;
+  }
+  .divNomEspaceRelative{
+    position:absolute;
+    background-color:grey;
+    opacity: 0.8;
+    width:99%;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-radius: 10px;
+    border-color:white;
+  }
+
+  .nomEspace{
+    color:white;
+    text-align:center;
+  }
+
+  #carteEspaceFlex{
+    display:flex;
+    justify-content: center;
+    background-color:#D3AC71;
+    width:99%;
+  }
+
+  #carteEspaceRelative{
+    position:relative;
+  }
+
+  #carteEspaceAbsolute{
+
+  }
+
+</style>
+
+<body id="tout">
+
+  <header id="barre">placeholder pour la barre</header>
+
+  <section id = "barreNosEspaces">
+
+    <section id="barreNosEspacesGauche">
+      <h1 id="barreNosEspacesTexte">
+          NOS ESPACES
+      </h1>
+    </section>
+
+    <section id="barreNosEspacesDroite">
+      <input id = "barreNosEspacesBtn"type="button" name="" value="Reservez maintenant">
+    </section>
+  </section>
+
+  <section id = "futureCarousel">
+      <section id="divImg1">
+        <section class="divNomEspaceFlex">
+          <section class = "divNomEspaceRelative" >
+            <p class="nomEspace">Salon de thé</p>
+          </section>
+        </section>
+        <img src="assiste/img/4 1.png" id = "img1">
+
+
+      </section>
+      <section id="divImg2">
+        <section class="divNomEspaceFlex">
+          <section class = "divNomEspaceRelative" >
+            <p class="nomEspace">Salon de coworking</p>
+          </section>
+        </section>
+        <img src="assiste/img/image 15.png" id = "img2" >
+      </section>
+  </section>
+
+  <section id = carteEspaceFlex>
+    <section id = "carteEspaceRelative">
+        <section id = "carteEspaceAbsolute">
+            <h1>Espaces disponibles</h1>
+        </section>
+    </section>
+  </section>
+
+
+</body>
