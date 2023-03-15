@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/reservation.css">
+
+  <title> Reservation </title>
+</head>
+
+<body>
+  <header class="">
+    <nav class="d-flex justify-content-centerd align-items-center">
+      <img class="mr-3" src="assiste/img/patoune.png" alt="Logo du site">
+      <div class="d-flex flex-row align-items-center justify-content-between ">
+
+        <button class="btn btn-outline-dark "> Adopte un chat </button>
+        <button class="btn btn-outline-dark "> Faire garder son chat </button>
+        <button class="btn btn-outline-dark ">Reservation </button>
+
+        <button class="btn btn-outline-dark ">Reservation </button>
+        <button class="btn btn-outline-dark ">Mes Infos </button>
+        <img id="navLine" src="assiste/img/Line_30.png" alt="" srcset="">
+        <button class="btn btn-outline-dark ">Connection </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <div id="main">
+    <div id="images">
+      <img src="assiste/img/catCafe_plan.jpg" alt="Plan du cafe"  width="450px">
+    </div>
+
+    <div id="reservation">
+      <h4 align="center"><u>Réservation :</u></h4>
+
+      <div id="salle">
+        <h6 align="center">Salle</h6>
+
+        <select class="bouton" name="salle">
+          <option value="1">Salon de thé</option>
+          <option value="2">Salle de jeu</option>
+          <option value="3">Salle de Coworking</option>
+          <option value="4">Salle Chill</option>
+        </select>
+      </div>
+
+      <div id="date">
+        <h6 align="center">Date</h6>
+        <input class="bouton" type="date" name="date" min="2023-03-15" max="2024-03-15" required>
+      </div>
+
+      <div id="heure">
+        <h6 align="center">Heure</h6>
+        <input class="bouton" type="time" name="" step="00:15" min="11:00" max="20:00">
+      </div>
+
+      <div id="reserver">
+        <input class="boutonNoir" type="submit" value="Réservez maintenant">
+      </div>
+    </div>
+</div>
+
+
+
+  </body>
+  </html>
