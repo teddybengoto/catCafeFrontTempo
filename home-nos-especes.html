@@ -100,19 +100,38 @@
     text-align:center;
   }
 
-  #carteEspaceFlex{
-    display:flex;
-    justify-content: center;
-    background-color:#D3AC71;
-    width:99%;
-  }
-
   #carteEspaceRelative{
     position:relative;
+    bottom:40%;
+    left:30%;
   }
 
   #carteEspaceAbsolute{
+    position:absolute;
+    width:40%;
+    background-color:#D3AC71;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-radius: 10px;
+  }
 
+  #carteEspaceFlex{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+  }
+  .salle{
+    display:flex;
+
+
+  }
+  .texteSalle{
+    display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width:470px;
   }
 
 </style>
@@ -155,10 +174,52 @@
       </section>
   </section>
 
-  <section id = carteEspaceFlex>
-    <section id = "carteEspaceRelative">
-        <section id = "carteEspaceAbsolute">
+  <section id = "carteEspaceRelative">
+    <section id = "carteEspaceAbsolute">
+        <section id = "carteEspaceFlex">
+
             <h1>Espaces disponibles</h1>
+
+            <section class = "salle">
+              <section class = "texteSalle">
+                <p>Salon de thé</p>
+                <p>Prendre un thé avec un super gateau fait maison entouré de chats trop mignon</p>
+              </section>
+              <section class="prixSalle">
+                <p>15 €</p>
+              </section>
+            </section>
+
+            <section class = "salle">
+              <section class = "texteSalle">
+                <p>Salle de coworking</p>
+                <p>Pour travailler efficacement au milieu des chats
+ (10 personnes max)</p>
+              </section>
+              <section class="prixSalle">
+                <p>15 €</p>
+              </section>
+            </section>
+
+            <section class = "salle">
+              <section class = "texteSalle">
+                <p>Salon de jeux de société</p>
+                <p>Venez vous amusez au milieu des chats</p>
+              </section>
+              <section class="prixSalle">
+                <p>15 €</p>
+              </section>
+            </section>
+
+            <section class = "salle">
+              <section class = "texteSalle">
+                <p>Salon chill</p>
+              </section>
+              <section class="prixSalle">
+                <p>15 €</p>
+              </section>
+            </section>
+
         </section>
     </section>
   </section>
