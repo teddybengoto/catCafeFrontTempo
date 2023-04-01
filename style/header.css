@@ -1,0 +1,12 @@
+header img {
+    height: 82.84px;
+    width: 78.16px;
+    transform: rotate(-30deg);
+
+}
+
+#navLine {
+    width: 35px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
